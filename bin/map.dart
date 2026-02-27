@@ -6,6 +6,7 @@ void main(){
   };
   calc(map1);
 print(map1);
+map1.clear();
 }
 
 void calc (Map x){

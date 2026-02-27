@@ -1,38 +1,31 @@
-import 'dart:io';
-// booked => true
-// empty => false
+import 'functions.dart';
+List<List<String>> seats = List.generate(LiRows, (int index)=> List.filled(LiCols, "E"));
+Map<List<int>, Map<String, String> > bookings = {};
+int LiRows=5, LiCols=5;
 void main(){
-  List<List<bool>> seats = List.generate(5, (int index)=> List.filled(5, false));
-  Map<List<int>, Map<String, String>> bookings = {};
-
   bool flag = true;
+  //list to store seats
+//map to store bookings
+  print("Welcome To Our Theater ❤" );
   while(flag){
     displayOptions();
     int choice = userInput();
     switch(choice){
       case 1:
-        //displaySeats();
+        //print seats
+        displaySeats(seats);
       case 2:
-        //newBook();
+        newBook(bookings, seats);
       case 3:
-        //displayBookings();
+        displayBookings(bookings);
       case 4:
         flag = false;
-      default:
-        print("Invalid choice");
+      case 0000:
+        resetSeats(bookings, seats);
+
+        default:
+        print("Invalid choice, please try again");
     }
   }
-
-}
-displayOptions(){
-  print("1. Display seats");
-  print("2. Book a seat");
-  print("3. Display bookings");
-  print("4. Exit");
-}
-userInput(){
-  int choice;
-  print("Enter your choice: ");
-  choice = int.parse(stdin.readLineSync()!);
 
 }
