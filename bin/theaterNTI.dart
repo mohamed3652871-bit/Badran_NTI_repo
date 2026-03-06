@@ -1,7 +1,7 @@
 import 'functions.dart';
-List<List<String>> seats = List.generate(LiRows, (int index)=> List.filled(LiCols, "E"));
+List<List<String>> seats = List.generate(liRows, (int index)=> List.filled(liCols, "E"));
 Map<List<int>, Map<String, String> > bookings = {};
-int LiRows=5, LiCols=5;
+int liRows=5, liCols=5;
 void main(){
   bool flag = true;
   //list to store seats

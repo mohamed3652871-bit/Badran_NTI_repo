@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'theaterNTI.dart';
 //_______________________________________________________________________________________________________________________________
-displayOptions(){
+void displayOptions(){
   print("Main menu:-\n1. Display seats");
   print("2. Book a seat");
   print("3. Display bookings");
@@ -21,23 +21,23 @@ String userInputString(){
   return choice;
 }
 //_______________________________________________________________________________________________________________________________
-displaySeats(List <List<String>> seats){
+void displaySeats(List <List<String>> seats){
   seats.forEach(print);
 }
 //_______________________________________________________________________________________________________________________________
-newBook(Map<List<int>, Map<String, String> >bookings, List<List<String>> seats){
+void newBook(Map<List<int>, Map<String, String> >bookings, List<List<String>> seats){
   //Entering row
   //----------------------
   print("Enter the row number: ");
   int row =int.parse(stdin.readLineSync()!);
-  if(row-1>LiRows|| row<=0){
+  if(row-1>liRows|| row<=0){
     print("Invalid row number");
     return newBook(bookings, seats);
   }
   //Entering column
   print("Enter the column number: ");
   int col = int.parse(stdin.readLineSync()!);
-  if(col>LiCols|| col<=0){
+  if(col>liCols|| col<=0){
     print("Invalid row number");
     return newBook(bookings, seats);
   }
@@ -58,12 +58,12 @@ newBook(Map<List<int>, Map<String, String> >bookings, List<List<String>> seats){
   }
 }
 //_______________________________________________________________________________________________________________________________
-displayBookings(Map bookings){
+void displayBookings(Map bookings){
   bookings.forEach((key, value) {
-    print("seat: ${key}: ${value}\n");
+    print("seat: $key: $value\n");
   });
 }
-resetSeats(Map bookings,List seats){
+dynamic resetSeats(Map bookings,List seats){
   int row, col;
   print("Please enter your choice:\n1. To reset a single seat\n2. To reset all seats\n3. To back for main menu");
   String choice = userInputString();
@@ -72,13 +72,13 @@ resetSeats(Map bookings,List seats){
       {
         print("Enter the row number: ");
         row = userInput();
-        if(row>LiRows|| row<=0){
+        if(row>liRows|| row<=0){
           print("Invalid row number");
           return resetSeats(bookings, seats);
         }
         print("Enter the Column number: ");
         col=userInput();
-        if(col>LiCols|| col<=0) {
+        if(col>liCols|| col<=0) {
           print("Invalid Column number");
           return resetSeats(bookings, seats);
         }
@@ -93,8 +93,8 @@ resetSeats(Map bookings,List seats){
         String choice=userInputString();
 
         if(choice=="0000"){
-          for(int i=0;i<LiRows;i++) {
-            for (int j = 0; j<LiCols; j++)
+          for(int i=0;i<liRows;i++) {
+            for (int j = 0; j<liCols; j++)
               seats[i][j] = "E";
           }
           bookings.clear();

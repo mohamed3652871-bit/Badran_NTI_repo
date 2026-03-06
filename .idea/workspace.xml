@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e16902a-01a6-44eb-9590-1f72242797b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/TEST2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/test_todo.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Badran_NTI_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Badran_NTI_repo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functions.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/map.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/map.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/functions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/functions.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/theaterNTI.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/theaterNTI.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +39,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Dart Command Line App.TEST2.dart.executor&quot;: &quot;Debug&quot;,
-    &quot;Dart Command Line App.theaterNTI.dart.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/C/StudioProjects/flutter2/Badran_NTI_repo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Dart Command Line App.TEST2.dart.executor": "Debug",
+    "Dart Command Line App.ToDo.dart.executor": "Debug",
+    "Dart Command Line App.flutter2.dart.executor": "Debug",
+    "Dart Command Line App.oop.dart.executor": "Debug",
+    "Dart Command Line App.test.dart.executor": "Debug",
+    "Dart Command Line App.test2.dart.executor": "Debug",
+    "Dart Command Line App.test_todo.dart.executor": "Debug",
+    "Dart Command Line App.theaterNTI.dart.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/C/StudioProjects/flutter2/Badran_NTI_repo",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
-  <component name="RunManager" selected="Dart Command Line App.theaterNTI.dart">
-    <configuration name="TEST2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/bin/TEST2.dart" />
+}]]></component>
+  <component name="RunManager" selected="Dart Command Line App.test_todo.dart">
+    <configuration name="ToDo.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/ToDo.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flutter2.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/flutter2.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oop.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/oop.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_todo.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/bin/test_todo.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -72,8 +94,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Dart Command Line App.theaterNTI.dart" />
-        <item itemvalue="Dart Command Line App.TEST2.dart" />
+        <item itemvalue="Dart Command Line App.test_todo.dart" />
+        <item itemvalue="Dart Command Line App.oop.dart" />
+        <item itemvalue="Dart Command Line App.flutter2.dart" />
+        <item itemvalue="Dart Command Line App.ToDo.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -109,12 +133,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="dart-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
